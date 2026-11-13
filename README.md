@@ -49,12 +49,11 @@ A Python-based, console-driven application that manages expenses, student attend
 
 ## Technologies Used
 
-- Python 3
+- Python 3.8 + 
 - Dictionaries and Lists
 - Functions and Modules
 - Loops and Conditional Statements
 - Exception Handling
-- File Handling (CSV)
 - Python Standard Library
 
 ## Project Structure
@@ -69,10 +68,6 @@ Expense & Attendance Management System/
 ├── grading.py
 ├── billing.py
 ├── reports.py
-│
-├── tests/
-│   ├── test_cases.csv
-│   └── test_log.csv
 │
 └── README.md
 ```
@@ -96,12 +91,6 @@ cd Expense-Attendance-Management-System
 ```bash
 python main.py
 ```
-
-## Testing
-
-Test cases are maintained in `tests/test_cases.csv`.
-
-The test log is maintained in `tests/test_log.csv` to record actual results and test status.
 
 ## Application Menu
 
