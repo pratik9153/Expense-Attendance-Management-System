@@ -1,0 +1,8 @@
+2026-11-13 22:10:11,316 - INFO - TC-04 - Expense amount validation - PASS
+2026-11-13 22:10:11,316 - INFO - TC-07 - 75 percent attendance - PASS
+2026-11-13 22:10:11,316 - INFO - TC-08 - 72.5 percent attendance - PASS
+2026-11-13 22:10:11,316 - INFO - TC-09 - 50 percent attendance - PASS
+2026-11-13 22:10:11,317 - INFO - TC-12 - 90 percent grade - PASS
+2026-11-13 22:10:11,317 - INFO - TC-13 - 34 percent grade - PASS
+2026-11-13 22:10:11,317 - INFO - TC-16 - 18 percent tax calculation - PASS
+2026-11-13 22:10:11,317 - INFO - TC-17 - 5 percent discount - PASS
