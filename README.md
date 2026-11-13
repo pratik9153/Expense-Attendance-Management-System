@@ -49,11 +49,13 @@ A Python-based, console-driven application that manages expenses, student attend
 
 ## Technologies Used
 
-- Python 3.8 + 
+- Python 3.8+
 - Dictionaries and Lists
 - Functions and Modules
 - Loops and Conditional Statements
 - Exception Handling
+- CSV
+- Logging Module
 - Python Standard Library
 
 ## Project Structure
@@ -69,8 +71,23 @@ Expense & Attendance Management System/
 ├── billing.py
 ├── reports.py
 │
+├── tests/
+│   ├── test_cases.csv
+│   ├── run_tests.py
+│   └── test_log.txt
+│
 └── README.md
 ```
+
+## Testing
+
+The project includes test cases to verify the functionality of different modules.
+
+- **test_cases.csv:** Contains 20 test scenarios with inputs and expected results.
+- **run_tests.py:** Executes selected automated function-level checks.
+- **test_log.txt:** Stores test execution results using Python's built-in logging module, including timestamps and PASS/FAIL status.
+
+The current automated test script performs 8 selected function-level checks.
 
 ## Installation and Execution
 
@@ -92,6 +109,12 @@ cd Expense-Attendance-Management-System
 python main.py
 ```
 
+**4. Run automated checks**
+
+```bash
+python tests/run_tests.py
+```
+
 ## Application Menu
 
 The application provides the following main menu:
@@ -107,8 +130,8 @@ The application provides the following main menu:
 
 **Pratik Choudhary**
 
-GitHub: https://github.com/pratik9153
+GitHub: [https://github.com/pratik9153](https://github.com/pratik9153)
 
 ---
 
-This project was developed as a Python programming project to demonstrate modular programming, data structures, input validation, and console-based application development.
+This project was developed as a Python programming project to demonstrate modular programming, data structures, input validation, console-based application development, and basic automated testing.
